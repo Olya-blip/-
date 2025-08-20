@@ -1,0 +1,71 @@
+.error {
+  background-image: url('../img/water-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  background-position: 50% 50%;
+}
+.error .error-top {
+  display: flex;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.error .error-top .text-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(34, 34, 34, 0.4);
+}
+.error .error-top .line {
+  color: rgba(34, 34, 34, 0.4);
+}
+.error .error-top .text-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  cursor: pointer;
+  color: #222222;
+}
+.error .error-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error .error-center .error-number {
+  color: #084FFF;
+  font-weight: 500;
+  font-size: 110px;
+  line-height: 110%;
+}
+.error .error-center .error-text {
+  color: #222222;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  margin-bottom: 30px;
+  width: 465px;
+  text-align: center;
+}
+.error .error-center .link-error .error-btn {
+  border: none;
+  background: #222222;
+  color: #FFFFFF;
+  padding: 13px 43px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .error .error-center .error-number {
+    font-size: 54px;
+  }
+  .error .error-center .error-text {
+    font-size: 18px;
+    width: 360px;
+  }
+  .error .error-center .link-error .error-btn {
+    padding: 10px 105px;
+  }
+}

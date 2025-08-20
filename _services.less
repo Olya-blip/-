@@ -1,0 +1,295 @@
+.about-services {
+    margin-bottom: 130px;
+
+    .about-services-top {
+        display: flex;
+        margin-bottom: 40px;
+        gap: 10px;
+
+        .text-one {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            cursor: pointer;
+            color: rgba(34, 34, 34, 0.4);
+        }
+
+        .line {
+            color: rgba(34, 34, 34, 0.4);
+        }
+
+        .text-two {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            cursor: pointer;
+            color: #222222;
+        }
+    }
+
+    .about-services-center {
+        display: flex;
+        flex-direction: column;
+
+        .about-services-title {
+            margin-bottom: 40px;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 110%;
+        }
+
+        .services-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+
+            .services-card {
+                border-radius: 5px;
+                background-color: #EFF4FF;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .card-text {
+                    margin-bottom: 25px;
+
+                    .text-title {
+                        margin-bottom: 10px;
+                        color: #084FFF;
+                        font-weight: 500;
+                        font-size: 30px;
+                        line-height: 110%;
+                    }
+
+                    .text-description {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 140%;
+                    }
+                }
+
+                .services-btn {
+                    display: flex;
+                    gap: 10px;
+
+                    .black-btn {
+                        border: none;
+                        border-radius: 5px;
+                        background-color: #222222;
+                        padding: 13px;
+                        color: #FFFFFF;
+                        font-weight: 600;
+                        font-size: 14px;
+                        width: 50%;
+                        line-height: 100%;
+                        cursor: pointer;
+                    }
+
+                    .black-btn:hover {
+                        background-color: #084FFF;
+                    }
+
+                    .white-btn {
+                        border-radius: 5px;
+                        padding: 13px;
+                        color: #FFFFFF;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 100%;
+                        border: 1px solid #D9D9D9;
+                        background: none;
+                        color: #222222;
+                        width: 50%;
+                        cursor: pointer;
+                    }
+
+                    .white-btn:hover {
+                        background-color: #084FFF;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .services-card--big {
+                display: flex;
+                flex-direction: row;
+                grid-column: span 2;
+                position: relative;
+                padding: 0;
+
+                .text-and-buttons {
+                    width: 50%;
+                    margin: 30px;
+                }
+
+                .img-container {
+                    display: flex;
+                    align-items: end;
+
+                    .glass {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.work {
+    margin-bottom: 130px;
+
+    .how-to-work {
+        .how-title {
+            color: #222222;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 110%;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .stages-work {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+
+            .stage {
+                border: 1px solid #D9D9D9;
+                border-radius: 5px;
+                padding: 16px;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+                .number-stage {
+                    color: rgba(34, 34, 34, 0.4);
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 110%;
+                }
+
+                .description-stage {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 110%;
+                }
+            }
+
+            .line-center {
+                border: 1px solid #D9D9D9;
+                rotate: 90deg;
+                height: 10px;
+            }
+        }
+    }
+}
+
+.form-section {
+    .form-and-picture {
+        .form-services {
+            width: 100%;
+
+            .flex-form {
+                display: flex;
+                gap: 132px;
+
+                .left-text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+
+                    .description {
+                        color: #FFFFFF;
+                        font-weight: 500;
+                        font-size: 64px;
+                        line-height: 90%;
+                    }
+
+                    .span-text {
+                        color: rgba(255, 255, 255, 0.8);
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 140%;
+                    }
+                }
+
+                .form-input {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .form-section .form-and-picture .form-services .flex-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-section .form-and-picture .form-services .flex-form .left-text .span-text,
+    .form .text-form .text-small {
+        display: none;
+    }
+
+    .form-section .form-and-picture .form-services .flex-form .left-text .description {
+        font-size: 44px;
+    }
+
+    .form .text-form .title {
+        font-size: 18px;
+    }
+
+    .work {
+        margin-bottom: 80px;
+    }
+
+    .work .how-to-work .stages-work {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .work .how-to-work .stages-work .line-center {
+        display: none;
+    }
+
+    .work .how-to-work .stages-work .stage {
+        width: 50%;
+    }
+
+    .about-services .about-services-center .about-services-title {
+        font-size: 22px;
+    }
+
+    .about-services .about-services-center .services-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .work .how-to-work .stages-work .stage {
+        width: 100%;
+    }
+
+    .work .how-to-work .how-title {
+        text-align: left;
+    }
+
+    .services-card--big {
+        flex-direction: column !important;
+
+        .text-and-buttons {
+            width: unset !important;
+        }
+
+        .img-container {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+}
