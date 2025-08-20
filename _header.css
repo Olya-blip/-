@@ -1,0 +1,319 @@
+.header .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  backdrop-filter: unset;
+  position: relative;
+  background-color: none;
+  border-radius: none;
+  margin-bottom: 82px;
+}
+.header .header-wrapper .logo {
+  width: 116px;
+}
+.header .header-wrapper .header-item {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+.header .header-wrapper .header-item .header-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header .header-wrapper .header-item .header-list .header-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #222222;
+}
+.header .header-wrapper .header-item .header-list .header-link:hover,
+.header .header-wrapper .header-item .header-list .search-btn:hover {
+  text-decoration: underline;
+}
+.header .header-wrapper .header-item .header-list .search-btn {
+  background: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.header .header-wrapper .header-item .header-list .search-btn .search-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #222222;
+}
+.header .header-wrapper .header-item .header-list .search-btn .search-icon {
+  color: #222222;
+  opacity: 40%;
+  width: 14px;
+  height: 14px;
+}
+.header .header-wrapper .header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.header .header-wrapper .header-right .number {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #222222;
+  cursor: pointer;
+}
+.header .header-wrapper .header-right .number:hover {
+  color: #084FFF;
+}
+.header .header-wrapper .header-right .contacts {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header .header-wrapper .header-right .contacts .link-whatsapp .btn {
+  background: #EFF4FF;
+  border-radius: 5px;
+  padding: 13px;
+  border: none;
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+}
+.header .header-wrapper .header-right .contacts .link-whatsapp .btn:hover {
+  background-color: #084FFF;
+  color: #FFFFFF;
+}
+.header .header-wrapper .header-right .contacts .link-connect .btn-connect {
+  padding: 13px 25px;
+  border: none;
+  height: 43px;
+  background: #EFF4FF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header .header-wrapper .header-right .contacts .link-connect .btn-connect:hover {
+  background-color: #084FFF;
+  color: #FFFFFF;
+}
+.header .header-wrapper--home {
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+.header .header-wrapper--home .header-item {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+.header .header-wrapper--home .header-item .header-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header .header-wrapper--home .header-item .header-list .header-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header .header-wrapper--home .header-item .header-list .search-btn {
+  background: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.header .header-wrapper--home .header-item .header-list .search-btn .search-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.header .header-wrapper--home .header-item .header-list .search-btn .search-icon {
+  color: #FFFFFF;
+  opacity: 50%;
+  width: 14px;
+  height: 14px;
+}
+.header .header-wrapper--home .header-item .header-link:hover,
+.header .header-wrapper--home .header-item .search-btn:hover {
+  text-decoration: underline;
+}
+.header .header-wrapper--home .header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.header .header-wrapper--home .header-right .number {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.header .header-wrapper--home .header-right .contacts {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header .header-wrapper--home .header-right .contacts .link-whatsapp .btn {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 13px;
+  border: none;
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+}
+.header .header-wrapper--home .header-right .contacts .link-connect .btn-connect {
+  padding: 13px 25px;
+  border: none;
+  height: 43px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header .black {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+}
+.header .black .black-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.header .menu-big {
+  display: none;
+}
+.header .menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-image: url("../img/small-water.png");
+  background-repeat: no-repeat;
+  background: white;
+  width: 402px;
+  z-index: 1000;
+  padding: 54px 55px 40px 25px;
+}
+.header .menu .mobile-menu-head .close-mobile-menu {
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  cursor: pointer;
+}
+.header .menu .mobile-menu-head .logo-menu {
+  margin-bottom: 38px;
+}
+.header .menu .mobile-menu-head .header-item-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 45px;
+}
+.header .menu .mobile-menu-head .header-item-menu .header-link {
+  color: #222222;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+}
+.header .menu .mobile-menu-head .contacts-menu {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.header .menu .mobile-menu-head .contacts-menu .link-phone {
+  text-decoration: none;
+  color: #084FFF;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+}
+.header .menu .mobile-menu-head .contacts-menu .link-whatsapp .btn {
+  background: #EFF4FF;
+  border-radius: 5px;
+  padding: 13px;
+  border: none;
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+}
+.header .menu .mobile-menu-head .header-consultation .consultation-header {
+  background-color: #222222;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+.header .menu .mobile-menu-head .header-text {
+  color: #084FFF;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+}
+@media (max-width: 1199px) {
+  .header .header-wrapper .header-item,
+  .header .header-wrapper .header-right .number,
+  .header .header-wrapper .header-right .contacts .link-connect .btn-connect {
+    display: none;
+  }
+  header .header-wrapper .header-right {
+    gap: 10px;
+  }
+  .header .header-wrapper .header-right .link-burger .burger-home {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    width: 30px;
+  }
+  .header .header-wrapper .header-right .link-burger .burger {
+    border: none;
+    background: none;
+    color: #222222;
+    cursor: pointer;
+    width: 30px;
+  }
+  .header .header-wrapper .menu .mobile-menu-head {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .header .menu {
+    width: 100%;
+  }
+  .header .menu .mobile-menu-head .contacts-menu .link-phone {
+    font-size: 25px;
+  }
+}

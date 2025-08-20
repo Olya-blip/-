@@ -1,0 +1,43 @@
+.rules .rules-top {
+  display: flex;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.rules .rules-top .text-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  cursor: pointer;
+  text-align: center;
+  color: rgba(34, 34, 34, 0.4);
+}
+.rules .rules-top .line {
+  color: rgba(34, 34, 34, 0.4);
+}
+.rules .rules-top .text-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  cursor: pointer;
+  color: #222222;
+}
+.rules .rules-about .title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  color: #222222;
+}
+.rules .rules-about .rules-list-heading {
+  color: #222222;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 20px;
+}
+.rules .rules-about .rules-list-text {
+  color: #222222;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}

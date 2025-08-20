@@ -1,0 +1,67 @@
+@import "_header.less";
+@import "_home.less";
+@import "_error.less";
+@import "_footer.less";
+@import "_political.less";
+@import "_contacts.less";
+@import "_blog.less";
+@import "_analysis.less";
+@import "_services.less";
+@import "_about-product.less";
+@import "_about-company.less";
+@import "_for-home.less";
+@import "_for-business.less";
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Inter Tight", "PT Sans", sans-serif;
+}
+
+.large-container {
+    width: 100%;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+
+p,
+ul,
+h1,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.link-burger,
+.footer-mob {
+    display: none;
+}
+
+@media (max-width:1199px) {
+    .large-container {
+        width: 100%;
+    }
+
+    .container {
+        width: unset;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .link-burger,
+    .footer-mob {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

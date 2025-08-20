@@ -1,0 +1,316 @@
+.about-company .about-company-top {
+  margin-bottom: 74px;
+}
+.about-company .about-company-top .top-and-avito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.about-company .about-company-top .top-and-avito .company-top {
+  display: flex;
+  gap: 10px;
+}
+.about-company .about-company-top .top-and-avito .company-top .text-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: rgba(34, 34, 34, 0.4);
+  cursor: pointer;
+}
+.about-company .about-company-top .top-and-avito .company-top .line {
+  color: rgba(34, 34, 34, 0.4);
+}
+.about-company .about-company-top .top-and-avito .company-top .text-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #222222;
+  cursor: pointer;
+}
+.about-company .about-company-top .top-and-avito .company-avito {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 18px;
+}
+.about-company .about-company-top .top-and-avito .company-avito .avito-text {
+  display: flex;
+  flex-direction: column;
+}
+.about-company .about-company-top .top-and-avito .company-avito .avito-text .text-and-stars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.about-company .about-company-top .top-and-avito .company-avito .avito-text .text-and-stars .evaluation {
+  color: #084FFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+}
+.about-company .about-company-top .top-and-avito .company-avito .avito-text .text-avito {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+.about-company .about-company-top .company-info {
+  display: flex;
+  gap: 40px;
+}
+.about-company .about-company-top .company-info .big-video {
+  position: relative;
+}
+.about-company .about-company-top .company-info .big-video .button-and-text {
+  position: absolute;
+  top: 39%;
+  left: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-company .about-company-top .company-info .big-video .button-and-text .play-btn {
+  border: none;
+  padding: 26px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  cursor: pointer;
+}
+.about-company .about-company-top .company-info .big-video .button-and-text .text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 78px;
+}
+.about-company .about-company-top .company-info .about-company-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.about-company .about-company-top .company-info .about-company-text .company-name {
+  color: #084FFF;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+.about-company .about-company-top .company-info .about-company-text .company-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  margin-bottom: 30px;
+}
+.about-company .about-company-top .company-info .about-company-text .company-text-center {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-company .about-company-top .company-info .about-company-text .company-text-center .company-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(34, 34, 34, 0.8);
+}
+.about-company .about-company-top .company-info .about-company-text .company-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+.about-company .about-company-top .company-info .about-company-text .company-bottom .bottom-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  max-width: 329px;
+  color: #222222;
+}
+.about-company .about-company-top .company-info .about-company-text .company-bottom .bottom-btn {
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 13px;
+  cursor: pointer;
+  background: none;
+}
+.about-company .about-company-top .company-info .about-company-text .company-bottom .bottom-btn:hover {
+  background-color: #FFB347;
+  color: #222222;
+}
+.about-company .advantages {
+  margin-bottom: 130px;
+}
+.about-company .advantages .advantages-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.about-company .advantages .advantages-cards .advantages-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-company .advantages .advantages-cards .advantages-card .advantages-img {
+  background-color: #EFF4FF;
+  border-radius: 4px;
+  padding: 14.5px;
+  width: 43px;
+  height: 43px;
+}
+.about-company .advantages .advantages-cards .advantages-card .advantages-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-company .advantages .advantages-cards .advantages-card .advantages-text .advantages-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+}
+.about-company .advantages .advantages-cards .advantages-card .advantages-text .advantages-exposition {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  max-width: 291px;
+}
+.about-company .useful-materials {
+  margin-bottom: 130px;
+}
+.about-company .useful-materials .title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-company .useful-materials .info-and-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-company .useful-materials .info-and-btn .materials-cards {
+  display: flex;
+  gap: 10px;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .material-img {
+  width: 293px;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info {
+  display: flex;
+  flex-direction: column;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info .material-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  margin-bottom: 10px;
+  max-width: 277px;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info .material-data {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: rgba(34, 34, 34, 0.4);
+  margin-bottom: 20px;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info .material-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .material-link {
+  text-decoration: none;
+  color: #222222;
+  cursor: pointer;
+  margin-top: auto;
+}
+.about-company .useful-materials .info-and-btn .materials-cards .material-card .material-link:hover {
+  color: #084FFF;
+  text-decoration: underline;
+}
+.about-company .useful-materials .info-and-btn .materials-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #EFF4FF;
+  padding: 16.5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  margin-top: 50px;
+  width: 50%;
+  cursor: pointer;
+}
+.about-company .useful-materials .info-and-btn .materials-btn:hover {
+  background-color: #084FFF;
+  color: #FFFFFF;
+}
+@media (max-width: 1200px) {
+  .about-company .useful-materials .info-and-btn .materials-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-company .useful-materials .info-and-btn .materials-cards .material-card {
+    align-items: center;
+  }
+  .about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info {
+    align-items: center;
+  }
+  .about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info .material-title {
+    max-width: unset;
+  }
+  .about-company .useful-materials .info-and-btn .materials-cards .material-card .materials-info .material-text {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .about-company .about-company-top {
+    margin-bottom: 80px;
+  }
+  .about-company .about-company-top .top-and-avito .company-avito {
+    border: none;
+  }
+  .about-company .about-company-top .company-info {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-company .about-company-top .company-info .big-video .button-and-text {
+    display: none;
+  }
+  .about-company .about-company-top .company-info .big-video .video {
+    width: 100%;
+  }
+  .about-company .about-company-top .company-info .about-company-text .company-description {
+    font-size: 22px;
+  }
+  .about-company .about-company-top .company-info .about-company-text .company-text-center .company-info {
+    font-size: 16px;
+  }
+  .about-company .about-company-top .company-info .about-company-text .company-bottom {
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-company .about-company-top .company-info .about-company-text .company-bottom .bottom-text,
+  .about-company .advantages .advantages-cards .advantages-card .advantages-text .advantages-exposition {
+    max-width: unset;
+  }
+  .about-company .advantages .advantages-cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about-company .useful-materials .info-and-btn .materials-cards .material-card .material-img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .about-company .useful-materials .info-and-btn .materials-cards {
+    grid-template-columns: 1fr;
+  }
+}

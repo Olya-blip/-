@@ -1,0 +1,415 @@
+@import "_form.less";
+
+.contact {
+    margin-bottom: 130px;
+
+    .contact-top {
+        display: flex;
+        margin-bottom: 40px;
+        gap: 10px;
+
+        .text-one {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            cursor: pointer;
+            color: rgba(34, 34, 34, 0.4);
+        }
+
+        .line {
+            color: rgba(34, 34, 34, 0.4);
+        }
+
+        .text-two {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            cursor: pointer;
+            color: #222222;
+        }
+    }
+
+    .contact-center {
+        display: flex;
+        gap: 134px;
+
+        .left {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+
+
+            .title {
+                color: #222222;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 90%;
+                margin-bottom: 50px;
+            }
+
+            .contacts-top {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                .mail-and-phone {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .mail {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .mail-text {
+                            color: rgba(34, 34, 34, 0.4);
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 140%;
+                        }
+
+                        .link-mail {
+                            text-decoration: none;
+                            color: #222222;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 110%;
+                        }
+                    }
+
+                    .phone {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .phone-text {
+                            color: rgba(34, 34, 34, 0.4);
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 140%;
+                        }
+
+                        .link-phone {
+                            text-decoration: none;
+                            color: #222222;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 110%;
+                        }
+                    }
+                }
+
+                .contacts {
+                    display: flex;
+                    gap: 5px;
+
+                    .link-whatsapp--footer,
+                    .link-telegram {
+                        .btn {
+                            background-color: #222222;
+                            color: #FFFFFF;
+                            border: none;
+                            padding: 13px;
+                            border-radius: 5px;
+                            height: 43px;
+                            width: 43px;
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+            }
+
+            .address {
+                display: flex;
+                flex-direction: column;
+                margin-top: auto;
+                gap: 20px;
+
+                .office-text {
+                    color: rgba(34, 34, 34, 0.4);
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 140%;
+                }
+
+                .address-text {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 140%;
+                    color: #222222;
+                }
+
+                .link-address {
+                    color: rgba(34, 34, 34, 0.3);
+                    text-decoration: none;
+
+                    .adress-btn {
+                        background: none;
+                        border: 1px solid #D9D9D9;
+                        padding: 13px 20px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 140%;
+                    }
+                }
+            }
+        }
+
+        .right {
+            flex-grow: 1;
+
+
+        }
+    }
+}
+
+.questions {
+    .title-question {
+        color: #084FFF;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 110%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .question-list {
+        display: flex;
+        gap: 11px;
+
+        .question-list-one {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 50%;
+
+            .question {
+                position: relative;
+                background-color: #EFF4FF;
+                padding: 20px;
+                border-radius: 5px;
+                align-items: center;
+
+                .question-and-btn {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 20px;
+
+                    .question-text {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 110%;
+                        color: #222222;
+                    }
+
+                    .plus {
+                        border: none;
+                        border-radius: 4px;
+                        background-color: #FFFFFF;
+                        width: 30px;
+                        height: 30px;
+                        cursor: pointer;
+                        padding: 6.5px;
+                    }
+
+                    .plus-icon {
+                        transition: transform 0.3s ease;
+                        transform-origin: center;
+                    }
+
+                    .plus.active .plus-icon {
+                        transform: rotate(45deg);
+                    }
+
+                    .plus.active {
+                        color: #084FFF;
+                    }
+                }
+
+                .answer {
+                    display: none;
+                    position: absolute;
+                    background-color: #EFF4FF;
+                    padding: 0 20px 20px 20px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    width: 100%;
+                    transform: translateX(-20px);
+
+                    .answer-text {
+                        color: #222222;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                    }
+                }
+            }
+        }
+
+        .question-list-two {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 50%;
+
+            .question {
+                background-color: #EFF4FF;
+                position: relative;
+                padding: 20px;
+                border-radius: 5px;
+                align-items: center;
+
+                .question-and-btn {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 20px;
+
+                    .question-text {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 110%;
+                        color: #222222;
+                    }
+
+                    .plus {
+                        border: none;
+                        border-radius: 4px;
+                        background-color: #FFFFFF;
+                        width: 30px;
+                        height: 30px;
+                        cursor: pointer;
+                        padding: 6.5px;
+                    }
+
+                    .plus-icon {
+                        transition: transform 0.3s ease;
+                        transform-origin: center;
+                    }
+
+                    .plus.active .plus-icon {
+                        transform: rotate(45deg);
+                        color: #084FFF;
+                    }
+
+                    .plus.active {
+                        color: #084FFF;
+                    }
+                }
+
+                .answer {
+                    display: none;
+                    position: absolute;
+                    background-color: #EFF4FF;
+                    padding: 0 20px 20px 20px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    width: 100%;
+                    transform: translateX(-20px);
+
+                    .answer-text {
+                        color: #222222;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                    }
+                }
+            }
+
+            .question-one {
+                gap: 44px;
+            }
+        }
+    }
+}
+
+@media (max-width:1119px) {
+
+    .contact .contact-center {
+        flex-direction: column;
+    }
+
+    .contact .contact-center .left,
+    .contact .contact-center .left .address {
+        align-items: center;
+    }
+
+    .contact .contact-center .left .contacts-top {
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .contact .contact-center .left .contacts-top .mail-and-phone {
+        gap: 40px;
+    }
+}
+
+@media (max-width:991px) {
+    .questions .question-list {
+        flex-direction: column;
+    }
+
+    .questions .question-list .question-list-two,
+    .questions .question-list .question-list-one {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+
+    .contact .contact-center .left,
+    .contact .contact-center .left .address {
+        align-items: flex-start;
+    }
+
+    .contact .contact-center .left .title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .contact .contact-center .left .contacts-top {
+        justify-content: space-between;
+        align-items: unset;
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-center .left .contacts-top .mail-and-phone {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .contact .contact-center .left .contacts-top .mail-and-phone .mail,
+    .contact .contact-center .left .contacts-top .mail-and-phone .phone {
+        gap: 10px;
+    }
+
+    .contact .contact-center .left .contacts-top .mail-and-phone .mail .link-mail,
+    .contact .contact-center .left .contacts-top .mail-and-phone .phone .link-phone {
+        font-size: 22px;
+    }
+
+    .contact .contact-center .left .address {
+        gap: 0;
+    }
+
+    .contact .contact-center .left .address .office-text {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-center .left .address .address-text {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .contact .contact-center .left .address .link-address,
+    .contact .contact-center .left .address .link-address .adress-btn {
+        width: 100%;
+    }
+}
